@@ -19,6 +19,10 @@
 * AppID: 暂时选择体验小程序（只有在上线的时候需要注册AppID ）
 * 项目名称：随意
 
+
+![DoubanFilm](https://user-images.githubusercontent.com/6166576/36627844-fc2a74ce-1983-11e8-98b3-25efff7e1d2b.jpg)
+
+
 ![image6] (https://user-images.githubusercontent.com/14669764/41001120-0470e574-68de-11e8-854f-bbe29b40e47b.png)
 
 ![image3] (https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
