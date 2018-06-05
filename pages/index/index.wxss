@@ -1,10 +1,8 @@
 page{
-  /* overflow: hidden; */
   height: 100%;
   width: 100%;
-  top: 0;
-  bottom: 0;
   position: fixed;
+  overflow: hidden; 
   background-color: #b6bfcd 
 }  
 
@@ -42,8 +40,7 @@ page{
     border-bottom: 0rpx;
     border-left: 0rpx;
     border-right: 0rpx;
-     border-image: linear-gradient(to right,#346e9c,#7e9cb2,#7e9cb2,#346e9c) 1 stretch;  
-    /* border-image: linear-gradient(to right, transparent,#7e9cb2,transparent) 1 stretch;   */
+     border-image: linear-gradient(to right,#346e9c,#7e9cb2,#7e9cb2,#346e9c) 1 stretch; 
     height: 100rpx;
     line-height: 100rpx;
     padding-left: 30rpx;

@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
-	"appid": "wxf3968793bb2b204c",
-	"projectname": "playtest",
+	"appid": "touristappid",
+	"projectname": "PayPal",
 	"condition": {
 		"search": {
 			"current": -1,

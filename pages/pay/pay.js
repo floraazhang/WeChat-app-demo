@@ -62,7 +62,7 @@ Page({
             })
             
             wx.request({
-              url: 'test.php',  // this should be your server address
+              url: 'https://247219280.mylightsite.com/mysqlcon.php',
               data: {
                 var1: value.var1,
                 var2: value.var2,
@@ -90,19 +90,6 @@ Page({
               success: function(res) {
                 console.log("success")
                 console.log(res.data)
-                if (res.data.status == 0) {
-                  wx.showToast({
-                    title: res.data.info,
-                    icon: 'loading',
-                    duration: 1500
-                  })
-                } else {
-                  wx.showToast({
-                    title: res.data.info,//这里打印出登录成功
-                    icon: 'success',
-                    duration: 1000
-                  })
-                }
               },
               fail: function(res) {},
               complete: function(res) {},
