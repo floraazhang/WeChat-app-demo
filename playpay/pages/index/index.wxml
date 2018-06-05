@@ -1,0 +1,43 @@
+<view class="page">
+  <view class="section1">
+
+      <view class="userinfo" wx:if="{{userInfo && userInfo.avatarUrl}}"> 
+		    <image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" 
+        background-size="cover"></image> 
+		    <text class="userinfo-nickname">{{ userInfo.nickName }}</text> 
+	    </view>  
+
+      <view class="userinfo" wx:if="{{!userInfo}}">
+        <image class="userinfo-avatar" src="../images/account.png" background-size="cover"></image> 
+        <button class="signin" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" >登录</button>
+      </view>  
+
+    <view class="my-item">
+       <navigator url="/pages/record/record">查看交易记录</navigator> 
+    </view>
+  </view>
+
+  <view class="section2">
+    <navigator url="../pay/pay" class="button">
+      <image class="image" src="../images/money-out.png"></image>
+    </navigator>
+    <text class="huikuan">汇款</text>
+  </view>
+
+   <view class="section3">
+    <view class="innerSection">
+      <view class="card" style='margin-right:200rpx'>
+        <navigator url="../intro/intro" class="button2">
+          <image class="image2" src="../images/bluebook.png"></image>
+        </navigator>
+        <text class="name">服务简介</text>
+      </view>
+      <view class="card">
+        <navigator url="../guide/guide" class="button2">
+          <image class="image2" src="../images/greennote.png"></image>
+        </navigator>
+        <text class="name">汇款指引</text>
+      </view>
+    </view>
+  </view> 
+</view>

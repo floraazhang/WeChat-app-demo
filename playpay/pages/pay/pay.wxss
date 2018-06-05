@@ -1,0 +1,76 @@
+.buttons{
+    font-size: 35rpx;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    background-color: white;
+}
+.buttons::after{
+  border: none;
+}
+.buttonSubmit{
+  color: green;
+}
+.buttonReset{
+  color: red;
+}
+.card{
+  border-top: 1rpx solid #efeff3;
+  border-bottom: 1rpx solid #efeff3;
+}
+.card2{
+  border-bottom: 1rpx solid #efeff3;
+}
+.form-box{
+    padding-left: 35rpx;
+}
+.form-box input{
+    height: 90rpx;
+    font-size: 28rpx;
+    color: black;
+    margin-left:20rpx; 
+}
+.gap{
+  height: 75rpx;
+  width: 750 rpx;
+  background-color: #f8f8f8;
+}
+.hover{
+    opacity: 0.7;
+}
+.line{
+  border-bottom: 1rpx solid #efeff3;
+}
+.navigator-hover{
+    background: none;
+}
+page{
+    background-color: #ffffff; 
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+    font-size: 32rpx;
+}
+radio-group{
+  padding-bottom: 18rpx;
+  padding-top:18rpx
+}
+.radio {
+    margin-right: 150rpx;
+}
+.red{
+    color:red;
+}
+.row{
+    display:flex;
+    /* border-bottom: 1rpx solid #dad9da;  */
+}
+.subtitle{
+    font-size: 30rpx;
+    margin-top: 23rpx;
+    width: 210rpx;
+}
+.title{
+    font-size: 28rpx;
+    color: #9b9b9b;
+    margin-left: 45rpx;
+    padding-top: 30rpx;
+    /* font-weight: 10; */
+}

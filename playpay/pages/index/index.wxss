@@ -1,0 +1,138 @@
+page{
+  /* overflow: hidden; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: #b6bfcd 
+}  
+
+
+
+.section1{
+  background: url(https://www.hoasted.com/blog/wp-content/uploads/2015/05/Gradient-blue.jpg) no-repeat;
+  background-size: 750rpx 750rpx;
+}
+.userinfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  width: 750rpx;
+  padding-top: 115rpx;
+  margin-bottom: 65rpx;
+}
+.userinfo-avatar {
+	width: 130rpx;
+	height: 130rpx;
+	border-radius: 50%;
+}
+.userinfo-nickname {
+  margin-top: 25rpx;
+  color: #FFF;
+  font-size: 30rpx;
+}
+.my-item{
+    width: 100%;
+    background: url(https://cdn.it120.cc/images/weappshop/arrow-right.png) no-repeat;
+    background-position-x: 710rpx;
+    background-position-y: center;
+    background-size: 20rpx auto,750rpx auto;
+    border-top: 1rpx solid;  
+    border-bottom: 0rpx;
+    border-left: 0rpx;
+    border-right: 0rpx;
+     border-image: linear-gradient(to right,#346e9c,#7e9cb2,#7e9cb2,#346e9c) 1 stretch;  
+    /* border-image: linear-gradient(to right, transparent,#7e9cb2,transparent) 1 stretch;   */
+    height: 100rpx;
+    line-height: 100rpx;
+    padding-left: 30rpx;
+    font-size:30rpx;
+    color: #eee;
+}
+.signin{
+  color: #FFF;
+  font-size: 30rpx;
+  background: transparent;
+}
+.signin::after{
+  border: none;
+}
+
+
+
+
+.section2{
+  position: relative;
+  background: url(http://www.lobservateur-automobiles.com/wp-content/uploads/2017/08/css-gradient-background.png) no-repeat;
+  background-size: 750rpx 750rpx;
+  padding-top: 100rpx; 
+  padding-bottom: 70rpx;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+}
+.image{
+  width: 100rpx;
+  height: 100rpx;
+  padding-top: 35rpx;
+}
+.button{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  background: #0f4b60;
+  opacity: 0.7;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column; 
+	align-items: center; 
+}
+.huikuan{
+  color: white;
+  font-size: 30rpx;
+}
+
+
+
+.section3{
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  background-color: #b6bfcd;
+}
+.innerSection{
+  display: flex;
+  flex-direction: row;
+	align-items: center;
+  padding-top: 80rpx;
+  padding-bottom: 70rpx;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+}
+.button2{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.7;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column; 
+	align-items: center; 
+}
+.image2{
+  width: 70rpx;
+  height: 70rpx;
+  padding-top: 25rpx;
+}
+.name{
+  color: white;
+  font-size: 25rpx;
+}
+
+
+

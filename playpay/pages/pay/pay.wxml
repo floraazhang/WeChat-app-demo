@@ -1,0 +1,152 @@
+<view class="page">
+  <form bindsubmit="formSubmit"  bindreset="formReset">
+
+
+    <!--汇款人信息  -->
+    <view class="gap">
+      <view class="row title">汇款人信息</view>
+    </view>
+    <view class="card form-box">
+      <view class="row line">
+        <view class="subtitle">汇款人名称</view>
+        <!-- <text class="subtitle red">*</text> -->
+        <input name="var1" placeholder="请填写"  focus='true'/>
+      </view>
+      <view class="row line">
+        <view class="subtitle">汇款人手机号</view>
+        <input name="var2" placeholder="请填写"/>
+      </view>
+      <view class="row line">
+        <view class="subtitle">汇款人地址</view>
+        <input name="var3" placeholder="请填写"/>
+      </view>
+      <view class="row line">
+        <view class="subtitle">汇款人银行</view>
+        <input name="var4" placeholder="请填写" />
+      </view>
+      <view class="row">
+        <view class="subtitle">汇款人账户</view>
+        <input name="var5" placeholder="请填写" />
+      </view>
+    </view>
+
+
+
+    <!--汇款信息  -->
+    <view class="gap">
+      <view class="row title">汇款信息</view>
+    </view>
+    <view class="card form-box">
+      <view class="line" style='display:flex'>
+          <view class="subtitle">汇款币种</view>
+          <input name="var6" placeholder="请填写"/> 
+      </view>
+      <view class="line" style='display:flex'>
+          <view class="subtitle">金额</view>
+          <input name="var7" placeholder="请填写"/> 
+      </view>
+    </view>
+
+
+
+    <!--收款人信息  -->
+    <view class="gap">
+      <view class="row title">收款人信息</view>
+    </view>
+    <view class="card form-box">
+      <view class="row line">
+        <view class="subtitle">收款人姓名</view>
+        <input name="var8" placeholder="请填写" /> 
+      </view>
+      <view class="row line">
+        <view class="subtitle">收款人账户</view>
+        <input name="var9" placeholder="请填写"/> 
+      </view>
+      <view class="row line">
+        <view class="subtitle">收款人电话</view>
+        <input name="var10" placeholder="请填写" /> 
+      </view>
+      <view class="row line">
+        <view class="subtitle">国家/地区</view>
+        <input name="var11" placeholder="请填写" /> 
+      </view>
+      <view class="row">
+        <view class="subtitle">地址</view>
+        <input name="var12" placeholder="请填写" /> 
+      </view>
+    </view>
+
+
+
+    <!--收款人开户行信息  -->
+    <view class="gap">
+      <view class=" row title">收款人开户行信息</view>
+    </view>
+    <view class="card form-box">
+      <view class="row line">
+        <view class="subtitle">收款地区/国家</view>
+        <input name="var13" placeholder="请填写" /> 
+      </view>
+      <view class="row line">
+        <view class="subtitle">银行所在城市</view>
+        <input name="var14" placeholder="请填写" /> 
+      </view>
+      <view class="row line">
+        <view class="subtitle">银行名称地址</view>
+        <input name="var15" placeholder="请填写" /> 
+      </view>
+      <view class="row">
+        <view class="subtitle">SWIFT代码</view>
+        <input name="var16" placeholder="请填写" /> 
+      </view>
+    </view>
+
+
+
+    <!--交易信息  -->
+    <view class="gap">
+      <view class=" row title">交易信息</view>
+    </view>
+    <view class="card form-box">
+      <view class="row line">
+        <view class="subtitle">交易附言</view>
+        <input name="var17" placeholder="请填写" /> 
+      </view>
+      <view class="row">
+        <view class="subtitle">汇款用途</view>
+        <input name="var18" placeholder="请填写" /> 
+      </view>
+    </view>
+
+
+
+    <!-- 汇款／扣账  
+    <radio-group class="radio-group line" name="2" bindchange="radioChange">
+        <label class="radio">
+            <radio value="汇款"/>汇款
+            <text class="subtitle red">*</text>
+        </label>
+        <label class="radio">
+            <radio value="扣账"/>扣账
+            <text class="subtitle red">*</text>
+        </label>
+    </radio-group> -->
+
+
+
+    <view class="gap">
+    </view>
+
+    <!--button  -->
+    <view class="card">
+      <button class="buttons buttonSubmit" form-type="submit" hover-class='hover'>提交</button>
+    </view>
+    <view class="card2">
+      <button class="buttons buttonReset" form-type="reset" hover-class='hover'>重置</button>
+    </view>
+
+    <view class="gap">
+    </view>
+
+  </form>
+</view>

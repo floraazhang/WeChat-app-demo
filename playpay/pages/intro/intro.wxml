@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="inner">
+    <view class="title">
+      服务简介
+    </view>
+    <view class="text">
+      <view class="nextpar">
+        PlayPay 拥有多年丰富经验的服务团队，专营全球汇款､ 外币及人民币现钞兑换服务 。本公司库存了多个国家的不同面额外币，汇率方面亦非常优惠，绝对可以有效率地为您提供专业服务。
+      </view>
+      <view class="nextpar">
+        本公司提供汇款服务到中国各省，全球及东南亚地区银行。我们并设有专责团队随时随地紧贴外汇行情，汇率灵活合理，比同行更优惠。本公司务求提供最舒适以及安全的环境予我们尊贵的客户作大额交易， 尖沙咀辨事处设立会议室及提供计算机给尊贵的客户使用。
+      </view>
+    </view>
+    <view class="title" style='margin-top: 80rpx'>
+      汇款参考时间
+    </view>
+    <view class='section'>
+      <view class="subtitle">北美各州省:</view> 
+      <view class="text2">于当日两小时内到账</view> 
+      <view class="subtitle">全球及东南亚地区银行:</view>
+      <view class="text2">在当日中午一点前收齐资料及款项, 便可于一至二日内到账</view>
+    </view>
+    <view class='section' style='margin-top: 80rpx'>
+      <view class="subtitle">50万以内 银行牌价卖出美元</view> 
+      <view class="text2">（实时到账7.51%，一日到账6.72%，三日到账5.68%，一周到账2.98%</view> 
+      <view class="subtitle">50-100万以内 银行牌价卖出美元</view>
+      <view class="text2">（实时到账7.22%，一日到账6.53%，三日到账5.41%，一周到账2.88%）</view>
+      <view class="subtitle">100 - 500万 银行牌价卖出美元</view> 
+      <view class="text2">（实时到账5.31%，一日到账5.17%，三日到账4.58%，一周到账2.69%）</view> 
+      <view class="subtitle">500万以上 银行牌价卖出美元 </view>
+      <view class="text2">（实时到账4.91%，一日到账4.72%，三日到账4.33%，一周到账2.51%）</view>
+    </view>
+    <view class='section' style='margin-top: 80rpx' >
+      <view class="subtitle">[ 本公司已获得香港海关批准，成功取得金钱经营者牌照。]</view>
+    </view>
+  </view>
+</view>

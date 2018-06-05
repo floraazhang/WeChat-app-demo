@@ -1,0 +1,8 @@
+.title{
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  font-size: 35rpx;
+  color: #9b9b9b;
+  margin-top: 30rpx;
+}
