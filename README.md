@@ -18,7 +18,7 @@
 * 项目目录：选择demo的存放路径
 * AppID: 暂时选择体验小程序（只有在上线的时候需要注册AppID ）
 * 项目名称：随意
-![image6] (https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/6.png)
+![image6] (https://user-images.githubusercontent.com/14669764/41001120-0470e574-68de-11e8-854f-bbe29b40e47b.png)
 ![image3] (https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
 
 ## 2. 界面介绍
