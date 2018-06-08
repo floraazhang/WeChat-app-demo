@@ -19,7 +19,7 @@
 * AppID: 暂时选择体验小程序（只有在上线的时候需要注册AppID ）
 * 项目名称：随意
 
-![image3] (https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
+![image3](https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
 
 ## 2. 界面介绍
 
