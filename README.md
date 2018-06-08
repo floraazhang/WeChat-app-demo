@@ -7,10 +7,13 @@
 
 <img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
 
+
 ## 1. 在微信开发者工具中打开demo
 
 * 下载本页demo到本地
 * 下载微信开发者工具： https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
+
+<img width="100" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/4.png"/>
 
 
 打开微信开发者工具
@@ -19,23 +22,20 @@
 * AppID: 暂时选择体验小程序（只有在上线的时候需要注册AppID ）
 * 项目名称：随意
 
-![image3](https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
+
+<img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/6.png"/>
+
 
 ## 2. 界面介绍
 
-点击右上绿色按钮下载所有文件
-deeeeeee
-为了帮助更多初学者或是爱好者，我个人准备了一个反向代理服务器（免费开放）。希望各位**珍惜资源切勿滥用**，谢谢！
+![image3](https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
 
-接口地址：https://douban.uieee.com （支持 HTTP / HTTPS）
+左上角可以选择模拟屏幕，看小程序在不同的手机型号下是什么样子。
+<img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/7.png"/>
 
-**接口限流：10000 次 / 1 小时**，由于是豆瓣官方的限流，所以所有使用我搭建的反向代理服务的朋友都是**共享这 10000 次请求**的，我也没办法再去提高这个数字（普通个人用户是 100 次 / 1 小时），所以还是希望大家不要滥用。
-
-当然如果还是不幸超出额度的话，就只能等待下一个整点，不明白为什么的朋友，可以自己 Google 一下接口限流：API Rate Limit。
-
-如果你可以的话，建议你自己参考我的配置文件配置一个自己的反向代理服务（这样就没人跟你抢了😀）
-
-接口配置文件仓库：https://github.com/zce/douban-api-proxy (包括解决方法)
+点亮编辑器时可以看到关于小程序的所有文件。
+<img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/8.png"/>
+<img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/9.png"/>
 
 ### 具体使用
 
