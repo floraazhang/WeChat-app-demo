@@ -44,10 +44,10 @@
 
 ### 文件夹分类
 文件分类可以根据自己喜好，一般情况下新建的文件会放在pages这个文件夹下，里面每一个子文件夹代表一个页面。例如我们现在看到的主页是在index这个文件夹下，对应这个页面：
-<figure>
-	<img width="50%" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/10.png"/>
-	<img width="50%" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
-</figure>
+<div>
+	<img width="300" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/10.png"/>
+	<img width="300" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
+</div>
 
 
 
