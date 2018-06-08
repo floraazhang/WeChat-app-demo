@@ -3,9 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/pay/pay",
-    "pages/record/record",
-    "pages/guide/guide",
-    "pages/intro/intro"
+    "pages/record/record"
   ],
   "window":{
     "backgroundTextStyle":"light",

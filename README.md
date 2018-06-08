@@ -44,11 +44,32 @@
 
 ### 文件夹分类
 文件分类可以根据自己喜好，一般情况下新建的文件会放在pages这个文件夹下，里面每一个子文件夹代表一个页面。例如我们现在看到的主页是在index这个文件夹下，对应这个页面：
-<div>
-	<img width="300" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/10.png"/>
-	<img width="300" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
-</div>
 
+<img src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/10.png"/>
+
+pay这个文件夹对应的是点击主页按钮“汇款”后的页面：
+<img src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/11.png"/>
+
+guide
+
+
+images这个文件夹里面放了这个小程序用到的一些图片
+
+
+
+
+
+### 跳转页面
+比如我们想点击汇款之后让它跳转到汇款页面，在pages点击右键->新建->目录->输入好记的文件名比如new。然后点开文件栏下面的app.json这个文件，输入“"pages/new/new"”
+
+<img width="300" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/11.png"/>
+<img width="300" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/12.png"/>
+
+
+
+
+
+（未完待续）
 
 
 
