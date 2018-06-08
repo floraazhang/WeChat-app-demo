@@ -5,9 +5,7 @@
 > - 下文是零零零基础教程
 > - 不需要教程的朋友可以直接下载demo
 
-![image1](https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png)
-
-<img width="150" height="150" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
+<img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
 
 ## 1. 在微信开发者工具中打开demo
 

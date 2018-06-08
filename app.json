@@ -10,7 +10,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "PlayPay",
+    "navigationBarTitleText": "PayPal",
     "navigationBarTextStyle":"black"
   }
 }
