@@ -5,7 +5,7 @@
 > - 下文是零零零基础教程
 > - 不需要教程的朋友可以直接下载demo
 
-![image1] (https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png)
+![image1](https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png)
 
 ## 1. 在微信开发者工具中打开demo
 
@@ -18,8 +18,6 @@
 * 项目目录：选择demo的存放路径
 * AppID: 暂时选择体验小程序（只有在上线的时候需要注册AppID ）
 * 项目名称：随意
-
-![image6] (/README/1.png)
 
 ![image3] (https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
 
