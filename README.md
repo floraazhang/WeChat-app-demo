@@ -2,8 +2,8 @@
 
 微信小程序 仿PayPal Demo + 零基础教程
 
-> - 下文是零零零基础教程
-> - 不需要教程的朋友可以直接下载demo
+> - 下文是零零零基础教程。目前还大脑一片空白的朋友先别打开微信官方的简易教程，一点都不简易。个人认为学习小程序这种web app最快速的方法就是下载现有的demo，改动里面的code看会有什么变化，就能马上知道每行code都在干什么。
+> - 有基础的朋友可以略过下文。
 
 <img width="350" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/1.png"/>
 
@@ -30,13 +30,13 @@
 
 ![image3](https://raw.githubusercontent.com/floraazhang/WeChat-app-demo/master/README/3.png)
 
-## 模拟器
+### 模拟器
 左上角选择模拟器，看小程序在不同的手机型号下是什么样子。
 
 <img width="250" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/7.png"/>
 
 
-## 编辑器
+### 编辑器
 点亮编辑器时可以看到关于小程序的所有文件。
 
 <img width="200" src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/8.png"/>
@@ -50,10 +50,39 @@
 pay这个文件夹对应的是点击主页按钮“汇款”后的页面：
 <img src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/11.png"/>
 
-guide
+images这个文件夹里面放了这个小程序用到的一些图片。
 
 
-images这个文件夹里面放了这个小程序用到的一些图片
+
+## 3.那就开始写code吧
+### 写过网站的朋友：
+小程序和网站很像，写过网站的朋友会非常好上手。小程序里的wxml就相当于网站的html，wxss相当于网站的css。个人感觉它们90%用法都是一样的，你在网站里用过的很多functions都适用于小程序。这个时候可以打开微信官方的组件教程：
+
+https://developers.weixin.qq.com/miniprogram/dev/component/
+
+最好配w3schools使用：
+
+https://www.w3schools.com
+
+好了你们可以跳过这一段了。
+
+### 没写过网站的朋友：
+wxml文件里写的是整个页面的内容，要写什么话、放什么图片，从上到下从左到右在wxml写好。wxss文件负责页面的颜值，背景颜色、文字大小、边框......js文件关于逻辑，比如处理点击按钮后的响应。
+
+
+<img src="https://github.com/floraazhang/WeChat-app-demo/raw/master/README/12.png"/>
+
+如果把整个页面分成一块一块区域，
+
+```
+<view>
+	表示区域的
+</view>
+```
+
+表示整个页面
+
+
 
 
 
