@@ -153,7 +153,7 @@ https://www.w3schools.com
 其中&lt;nativator&gt;&lt;/nativator&gt;相当于一个跳转按钮，url是你想跳转到的页面路径，&lt;image&gt;&lt;/image&gt;表示这个按钮要放一个图案，src是按钮图案的路径，储存在images这个文件夹下。
 > 路径小科普：<br>
 > ../ 表示退一层，此处从index的文件夹下退回到pages文件夹下，然后通过new/到达new文件夹，然后再通过new/到达new的页面。
-<br><br>
+<br><br><br>
 
 
 
@@ -164,7 +164,7 @@ https://www.w3schools.com
 
 
 
-> 零基础教程就是这么多啦，剩下的就靠你们钻研啦～
+> 以上就是零基础的朋友需要知道的基本知识啦，剩下的就靠你们钻研啦～
 
 
 <br><br><br>
